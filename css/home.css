@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #ebeced;
+}
+
+.home, .historia, .vida-noturna, .participantes {
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-size: 18px;
+
+}
+
+.home:hover, .historia:hover, .vida-noturna:hover, .participantes:hover {
+    background-color: #ebeced;
+    border-bottom: 2px solid black;
+}
+
+a:link, a {
+    text-decoration: none;
+    color: black;
+}
+
