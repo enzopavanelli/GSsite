@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #ebeced;
+    height: 67px;
+}
+
+.home, .historia, .vida-noturna, .participantes {
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-size: 18px;
+
+}
+
+.home:hover, .historia:hover, .vida-noturna:hover, .participantes:hover {
+    background-color: #ebeced;
+    border-bottom: 2px solid black;
+}
+
+a:link, a {
+    text-decoration: none;
+    color: black;
+}
+
+.home-box-h1 {
+    height: 100px;
+    background-color: #ebeced;
+    display: flex;
+    justify-content: center;
+}
+
+.box-1, .box-2, .box-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+#img1, #img2, #img3 {
+    width: 22%;
+    border-radius: 22px;
+}
+
+.text1, .text2, .text3 {
+    width: 27%;
+    text-align: justify;
+    margin-left: 23px;
+}
+
+
