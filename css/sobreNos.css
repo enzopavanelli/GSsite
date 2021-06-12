@@ -1,7 +1,8 @@
 .newsletter{
     display: flex;
     align-items: center;
-    padding: 40px 0px 0px 0px;
+    justify-content: center;
+    padding-top: 40px;
 }
 
 .news-title{
@@ -12,6 +13,7 @@
 .email{
     padding: 10px;
     width: 340px;
+    outline: none;
 }
 
 .btn-email{

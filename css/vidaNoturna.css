@@ -30,6 +30,10 @@ a:link, a {
     color: black;
 }
 
+.home-page {
+    height: 1500px;
+}
+
 .home-box-h1 {
     height: 100px;
     background-color: #ebeced;
@@ -57,7 +61,8 @@ a:link, a {
 .newsletter{
     display: flex;
     align-items: center;
-    padding: 40px 0px 0px 0px;
+    justify-content: center;
+    padding-top: 40px;
 }
 
 .news-title{
@@ -68,6 +73,7 @@ a:link, a {
 .email{
     padding: 10px;
     width: 340px;
+    outline: none;
 }
 
 .btn-email{
@@ -91,4 +97,3 @@ a:link, a {
 .footer{
     background: #37454d;
 }
-
