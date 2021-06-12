@@ -47,9 +47,12 @@ a:link, a {
     margin-top: 4%;
 }
 
+
 #img1, #img2, #img3 {
     width: 22%;
     border-radius: 22px;
+    height: 325px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
 }
 
 .text1, .text2, .text3 {

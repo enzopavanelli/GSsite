@@ -1,3 +1,66 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #ebeced;
+    height: 67px;
+}
+
+.home, .historia, .vida-noturna, .participantes {
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-size: 18px;
+
+}
+
+.home:hover, .historia:hover, .vida-noturna:hover, .participantes:hover {
+    background-color: #ebeced;
+    border-bottom: 2px solid black;
+}
+
+a:link, a {
+    text-decoration: none;
+    color: black;
+}
+
+.home-travels {
+    height: 900px;
+    text-align: center;
+}
+
+.home-h2 {
+    height: 100px;
+    background-color: #ebeced;
+    display: flex;
+    justify-content: center;
+}
+
+.home-travels-conteiner {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.home-travels-1, .home-travels-2, .home-travels-3, .home-travels-4 {
+    margin-right: 20px;
+}
+
+.home-travels-1:hover, .home-travels-2:hover, .home-travels-3:hover, .home-travels-4:hover {
+    background-color: #ebeced;
+    border-radius: 15px;
+}
+
+img {
+    width: 290px;
+    border-radius: 15px;
+}
+
 .newsletter{
     display: flex;
     align-items: center;
@@ -27,6 +90,7 @@
 .flex-grid{
     display: grid;
     justify-content: center;
+    height: 147px;
 }
 
 .flex-center{
